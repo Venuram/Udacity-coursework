@@ -11,7 +11,7 @@ The data is scraped from ESPN Cricinfo
 Matches till 18th May 2019 are only counted.
 
 
-Dataset  - WC Players
+DATASET  - WC PLAYERS
 
 Player - Name of the player
 
@@ -40,7 +40,7 @@ ground - venue played
 start date - match date
 
 
-Dataset - ODI_Match_Results
+DATASET - ODI_MATCH_RESULTS
 
 Result - Result of the match played
 
@@ -59,7 +59,7 @@ start date - match date
 match_ID - Id of the match played
 
 
-Dataset - Ground_Averages
+DATASET - GROUND_AVERAGES
 
 Ground - Venue played
 
@@ -102,7 +102,7 @@ Opposition - Opponents played
 Ground - Venue
 
 
-Dataset - Batsmen_Data
+DATASET - BATSMEN_DATA
 
 bat - position of the batting order
 
@@ -127,13 +127,13 @@ Cricket is not only a sport in India also a religion that's been worshipped by m
 
 World cup tournament is the pinnacle of the sport and it's always fascinating to work and analyze cricket datasets to find insights that might be the X factor in the games. 
 
-Data used:
+DATA USED:
 
 The dataset used in this project can be downloaded from the below given links:
 
 
 
-Project purpose:
+PROJECT PURPOSE:
 
 What am I going to do in this kernel?
 
