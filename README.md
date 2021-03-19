@@ -12,70 +12,112 @@ Matches till 18th May 2019 are only counted.
 Dataset  - WC Players
 
 Player - Name of the player
+
 ID - Identity of the player
+
 Country - Country that a player represent
 
 Dataset - ODI_Match_Totals
 
 score - total score of a match
+
 Overs - overs played in a match
+
 RPO - Runs per over
+
 Target - Runs needed to win
+
 Inns - innings played in a match
+
 Result - result of a match
+
 Opposition - Opponent team
+
 ground - venue played
+
 start date - match date
 
 
 Dataset - ODI_Match_Results
 
 Result - Result of the match played
+
 Margin - Margins by which a team won
+
 Toss - Team that won the toss
+
 Bat - Batted first or second innings
+
 Opposition - Opponent team
+
 ground - venue played
+
 start date - match date
+
 match_ID - Id of the match played
 
 
 Dataset - Ground_Averages
 
 Ground - Venue played
+
 Span - Duration of the match played
+
 Mat - Matches played
+
 Won - No.of Matches won
+
 Tied - No.of macthes drawn
+
 NR - Matches that have no results
+
 Runs - Total runs scored in the pitches
+
 Wkt - Total wickets taken
+
 Balls - No.of balls bowled
+
 Ave - Average of the ground
 
 Dataset - Bowler_data
 
 Overs - No.of Overs
+
 Mdns - No.of maiden overs bowled
+
 Runs - Total no. of runs scored in the overs
+
 Wkts - No.of wickets taken
+
 Econ - Economy of the bowler
+
 Ave - Average of the bowler
+
 SR - Strike rate
+
 Opposition - Opponents played
+
 Ground - Venue
 
 
 Dataset - Batsmen_Data
 
 bat - position of the batting order
+
 runs - runs scord while batting
+
 BF - Balls faced
+
 SR - Strike rate
+
 4s - No.of 4 runs scored
+
 6s - No.of 6 runs scored
+
 opposition - Opponents
+
 Ground - Venue
+
 Start date - Match start date
 
 
