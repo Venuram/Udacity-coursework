@@ -1,5 +1,7 @@
 Write a Data Science blog post
 
+Link to the blog post: https://exploratory-data.blogspot.com/2021/03/icc-cricket-world-cup-2019-cricket.html
+
 # Udacity-coursework
 
 This repository is basically to store and re-use my udacity coursework, portfolio exercises and projects
