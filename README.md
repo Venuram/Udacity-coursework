@@ -1,4 +1,4 @@
-Write a Data Science blog post
+**Write a Data Science blog post**
 
 Link to the blog post: https://exploratory-data.blogspot.com/2021/03/icc-cricket-world-cup-2019-cricket.html
 
@@ -11,7 +11,7 @@ The data is scraped from ESPN Cricinfo
 Matches till 18th May 2019 are only counted.
 
 
-DATASET  - WC PLAYERS
+**DATASET  - WC PLAYERS**
 
 Player - Name of the player
 
@@ -19,7 +19,7 @@ ID - Identity of the player
 
 Country - Country that a player represent
 
-Dataset - ODI_Match_Totals
+**Dataset - ODI_Match_Totals**
 
 score - total score of a match
 
@@ -40,7 +40,7 @@ ground - venue played
 start date - match date
 
 
-DATASET - ODI_MATCH_RESULTS
+**DATASET - ODI_MATCH_RESULTS**
 
 Result - Result of the match played
 
@@ -59,7 +59,7 @@ start date - match date
 match_ID - Id of the match played
 
 
-DATASET - GROUND_AVERAGES
+**DATASET - GROUND_AVERAGES**
 
 Ground - Venue played
 
@@ -81,7 +81,7 @@ Balls - No.of balls bowled
 
 Ave - Average of the ground
 
-Dataset - Bowler_data
+**Dataset - Bowler_data**
 
 Overs - No.of Overs
 
@@ -101,8 +101,8 @@ Opposition - Opponents played
 
 Ground - Venue
 
-
-DATASET - BATSMEN_DATA
+**
+DATASET - BATSMEN_DATA**
 
 bat - position of the batting order
 
@@ -127,13 +127,13 @@ Cricket is not only a sport in India also a religion that's been worshipped by m
 
 World cup tournament is the pinnacle of the sport and it's always fascinating to work and analyze cricket datasets to find insights that might be the X factor in the games. 
 
-DATA USED:
+**DATA USED:**
 
 The dataset used in this project can be downloaded from the below given links:
 
 https://www.kaggle.com/saivamshi/cricket-world-cup-2019-players-data
 
-PROJECT PURPOSE:
+**PROJECT PURPOSE:**
 
 What am I going to do in this kernel?
 
@@ -145,11 +145,11 @@ What am I going to do in this kernel?
 5. Who has the best Economy?
 
 
-CODE:
+**CODE:**
 
 The details and code of this project can be found in this repository.
 
 
-REFERENCES: 
+**REFERENCES: **
 
 Major references and credit goes to Kaggle data and Medium posts which helped a lot to prepare this project and blog post.
