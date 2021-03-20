@@ -6,6 +6,11 @@ Link to the blog post: https://exploratory-data.blogspot.com/2021/03/icc-cricket
 
 This repository is basically to store and re-use my udacity coursework, portfolio exercises and projects
 
+
+BCCI (Board of Control Cricket India) wants to address concerns on records team India hold abroad after 2012. In order to tackle the flaws and identify strengths before the world class tournament, BCCI analyses the stats of grounds, pitches, batting records, bowlers' economy etc.
+
+This descriptive analysis can make it possible for the board to take a look into which country has the best record in England along with other deciding factors like top batsmen and bowlers to look after in the tournament.
+
 Created the dataset to analyze the performance of all the players playing in CWC 2019
 The data is scraped from ESPN Cricinfo
 Matches till 18th May 2019 are only counted.
