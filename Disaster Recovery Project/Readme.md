@@ -1,4 +1,5 @@
-# Disaster-Recovery-Project
+   # Disaster Response Pipeline Project
+   
    This project is part of Udacity's nanodegree program. 
 
 
@@ -53,8 +54,6 @@
 
 
    Run the following commands in the project's root directory to set up your database and model.
-
-   # Disaster Response Pipeline Project
 
 1. Run the following commands in the project's root directory to set up your database and model.
 
