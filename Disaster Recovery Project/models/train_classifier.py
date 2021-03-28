@@ -21,6 +21,17 @@ nltk.download(['punkt', 'wordnet'])
 
 def load_data(database_filepath):
     
+    ''' This function fetches the file to be processed from the database and perform data preparation
+        to feed the same to the model
+        
+        Input:
+        database_filepath: Path of the file from database
+        
+        Output:
+        X: Holds the message column from df dataframe
+        Y: Holds the transformed categories' columns
+        category_names: categories of the dataframe '''
+    
     # load data from database
     engine = create_engine('sqlite:///{}'.format(database_filepath))
     df = pd.read_sql_table('disaster_messages1', con=engine)
@@ -34,6 +45,16 @@ def load_data(database_filepath):
 
 def tokenize(text):
     
+    ''' This function tokenize the text that's been fed as input to the model
+    
+        Input:
+        
+        text: Text needed for processing and model feed
+        
+        Output:
+        
+        clean_tokens: cleaned tokens/words from the text served as input''' 
+    
     tokens = word_tokenize(text)
     lemmatizer = WordNetLemmatizer()
     clean_tokens = []
@@ -46,7 +67,11 @@ def tokenize(text):
 
 def build_model():
     
-    # Pipeline1 created for the purpose of combining different tokenizers and classifier together for efficient model usage
+    ''' Function perform creation of Pipeline for the purpose of combining different tokenizers and classifier together for efficient model usage
+    
+        Output:
+        cv: returns cross validation parameters for model performance '''
+    
     pipeline = Pipeline([
                 ('vect', CountVectorizer(tokenizer=tokenize)),
                 ('tfidf', TfidfTransformer()),
@@ -64,6 +89,17 @@ def build_model():
 
 def evaluate_model(model, X_test, Y_test, category_names):
     
+    ''' This method functions for the purpose of fetching the successfully ran model parameters and evaluate the model's performance
+    
+        Input:
+        model: model built in the previos method
+        X_test: test dataframe with respect to X
+        Y_test: test dataframe with respect to Y 
+        categories_names: names of categories listed above
+        
+        Output:
+        Classification report of the model's performance '''
+    
     y_pred = model.predict(X_test)
     y_pred_pd = pd.DataFrame(y_pred, columns = category_names)
     
@@ -72,6 +108,9 @@ def evaluate_model(model, X_test, Y_test, category_names):
 
 
 def save_model(model, model_filepath):
+    
+    ''' This function saves the model to the pickle file to use the same with the web app created via flask '''
+    
     pickle.dump(model.best_estimator_, open(model_filepath, 'wb'))
 
 
