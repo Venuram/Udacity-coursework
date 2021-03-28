@@ -68,7 +68,7 @@
 
 1. First of all, your model might perform efficiently as expected even when it is fed with an imbalanced dataset.
 
-2. The model evaluated the data points in a biased manner where it might naturally select the majority class holding maximum data points.
+2. The model evaluates the data points in a biased manner where it might naturally select the majority class holding maximum data points.
 
 3. In order to improve F1 score, precision and recall factors, I would suggest balancing the data in the data preparation phase.
 
