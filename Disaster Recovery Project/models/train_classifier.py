@@ -49,16 +49,15 @@ def build_model():
     # Pipeline1 created for the purpose of combining different tokenizers and classifier together for efficient model usage
     pipeline = Pipeline([
                 ('vect', CountVectorizer(tokenizer=tokenize)),
-                ('best', TruncatedSVD()),
                 ('tfidf', TfidfTransformer()),
                 ('clf', MultiOutputClassifier(AdaBoostClassifier()))    
                 ])
     # Involving paramters to make the search/processing better using GridSearch feature and storing it in CV.
 
-    parameters =  {'clf__estimator__learning_rate': [0.1, 0.3],
-                   'clf__estimator__n_estimators': [100, 200]} 
+    parameters =  {'clf__estimator__learning_rate': [0.05],
+                   'clf__estimator__n_estimators': [100, 200, 300]} 
     
-    cv = GridSearchCV(estimator=pipeline, cv=3, scoring='f1_weighted', verbose=3, param_grid=parameters)
+    cv = GridSearchCV(estimator=pipeline, cv=2, scoring='f1_weighted', verbose=3, param_grid=parameters)
     
     return cv
 
