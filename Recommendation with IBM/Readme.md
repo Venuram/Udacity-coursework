@@ -1,4 +1,4 @@
-<b> Recommendations with IBM <b>
+<b> Recommendations with IBM </b>
 
 
 In this project I analyze the interactions that users have with articles on the IBM Watson Studio platform, and make recommendations to them about new articles.
