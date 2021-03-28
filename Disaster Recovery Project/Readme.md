@@ -64,3 +64,14 @@
 
    Notebooks ETL Pipeline Prep.ipynb - jupyter notebook for data exploration and cleaning ML Pipeline Preparation - jupyter notebook for model selection and evaluation
 
+As far as the imbalanced dataset concerns, I would like to point out the drawbacks when a model is trained with imbalanced dataset.
+
+1. First of all, your model might perform efficiently as expected even when it is fed with an imbalanced dataset.
+
+2. The model evaluated the data points in a biased manner where it might naturally select the majority class holding maximum data points.
+
+3. In order to improve F1 score, precision and recall factors, I would suggest balancing the data in the data preparation phase.
+
+4. Try to tune the class weights so that the model doesn't behave in a biased way. 
+
+There are different techniques that could be implemented in order to avoid model resulting biased outputs. This completely should be analysed in the initial phases of data preparation and cleaning. 
