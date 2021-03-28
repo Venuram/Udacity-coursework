@@ -9,6 +9,16 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 def load_data(messages_filepath, categories_filepath):
+    
+    ''' This method functions for the purpose of fetching input files and merge for data processing
+    
+        Input:
+        message_filepath: disaster_messages.csv file
+        categories_filepath: disaster_categories.csv file
+        
+        Output:
+        df: merged file for data processing '''
+        
     messages = pd.read_csv(messages_filepath)
     categories = pd.read_csv(categories_filepath)
     
@@ -23,6 +33,14 @@ def load_data(messages_filepath, categories_filepath):
 
 
 def clean_data(df):
+    
+    ''' This method functions for the purpose of cleaning the merged file.
+    
+        Input:
+        df: merged dataframe
+        
+        Output:
+        df: cleaned dataframe ( categorize columns, remove duplicates etc.) '''
     
     # create a dataframe of the 36 individual category columns
     categories = df['categories'].str.split(';', expand=True)
@@ -52,6 +70,15 @@ def clean_data(df):
 
 
 def save_data(df, database_filename):
+    
+    ''' save_data serves by storing the dataframe in the database 
+    
+        Input:
+        df: cleaned dataframe
+        database_filename: Database to which the dataframe is stored
+        
+        Output:
+        Storing dataframe in the database '''
     
     
     engine = create_engine('sqlite:///'+ database_filename)
