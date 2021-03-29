@@ -105,6 +105,6 @@ There are different techniques that could be implemented in order to avoid model
 
 ## 9. Acknowledgement ##
 
-Thanks Udacity for challenging my skills and potential though this project that involves everything from start to deployment. 
+Thanks Udacity for challenging my skills and potential through this project that involves everything from start to deployment. 
 
 This project shows how your trained model is well deployed in the real-world web applications. It's been such a knowledgable one to get hands-on with. A all in one procedural approach is the key to get this done. 
