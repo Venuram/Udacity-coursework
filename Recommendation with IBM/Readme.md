@@ -1,13 +1,14 @@
 ## Recommendations with IBM ##
 
-
-In this project I analyze the interactions that users have with articles on the IBM Watson Studio platform, and make recommendations to them about new articles.
+This project highly focuses on the analysis of how users interact with the articles on the IBm Watson platform with which we will be able to predict the recommendations of new articles.
 
 ## Introduction ##
 
-The goal of the project is to do recommendation of the articles that are most pertinent to a specific user.
+The main objective of the project is to recommend articles that could be the most choosed to a particular user. 
 
-In order to determine which articles to show to each user, a study of the data available on the IBM Watson Studio platform is performed. Here are the main steps:
+In order to determine which articles to show to each user, a study of the data available on the IBM Watson Studio platform is performed. 
+
+## Here are the main steps: ##
 
 I. Exploratory Data Analysis 
 
@@ -45,7 +46,8 @@ jupyter notebook Recommendations_with_IBM.ipynb
 
 This will open the iPython Notebook software and project file in your browser.
 
-License
+## License ##
+
 Licensed under the MIT license.
 
 ## Files ##
