@@ -87,6 +87,18 @@
 
 There are different techniques that could be implemented in order to avoid model resulting biased outputs. This completely should be analysed in the initial phases of data preparation and cleaning. 
 
-## Classification Output ##
+## 7. Classification Output ##
 
-![](images/class1.png)
+<img width="881" alt="class1" src="https://user-images.githubusercontent.com/45115437/112853413-73787600-90ca-11eb-9631-93fe678cc7c2.png">
+
+<img width="860" alt="class2" src="https://user-images.githubusercontent.com/45115437/112853200-3d3af680-90ca-11eb-899d-7975fe0ec2ad.png">
+
+<img width="862" alt="class3" src="https://user-images.githubusercontent.com/45115437/112853271-4fb53000-90ca-11eb-8995-affe8a5675b4.png">
+
+## 8. Graphs ##
+
+<img width="857" alt="class1" src="https://user-images.githubusercontent.com/45115437/112853794-d66a0d00-90ca-11eb-8c7f-ce26903c57e6.png">
+
+<img width="873" alt="class2" src="https://user-images.githubusercontent.com/45115437/112853820-e08c0b80-90ca-11eb-88dd-698c4d83a15d.png">
+
+<img width="875" alt="class3" src="https://user-images.githubusercontent.com/45115437/112853862-ea157380-90ca-11eb-9fae-80ea3d6249ff.png">
