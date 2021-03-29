@@ -52,6 +52,10 @@ Licensed under the MIT license.
 
 ## Files ##
 
-Recommendations_with_IBM.ipynb: My answer for recommendations, It describe how to recommend articles to users
+Recommendations_with_IBM.ipynb:
 
-Recommendations_with_IBM.html: As the same of above notebook but format is html.
+My answer for recommendations, It describe how to recommend articles to users
+
+Recommendations_with_IBM.html:
+
+As the same of above notebook but format is html.
