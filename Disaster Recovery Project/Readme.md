@@ -89,4 +89,4 @@ There are different techniques that could be implemented in order to avoid model
 
 ## Classification Output ##
 
-
+![](images/class1.png)
