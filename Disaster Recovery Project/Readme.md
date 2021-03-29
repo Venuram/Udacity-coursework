@@ -102,3 +102,9 @@ There are different techniques that could be implemented in order to avoid model
 <img width="873" alt="class2" src="https://user-images.githubusercontent.com/45115437/112853820-e08c0b80-90ca-11eb-88dd-698c4d83a15d.png">
 
 <img width="875" alt="class3" src="https://user-images.githubusercontent.com/45115437/112853862-ea157380-90ca-11eb-9fae-80ea3d6249ff.png">
+
+## 9. Acknowledgement ##
+
+Thanks Udacity for challenging my skills and potential though this project that involves everything from start to deployment. 
+
+This project shows how your trained model is well deployed in the real-world web applications. It's been such a knowledgable one to get hands-on with. A all in one procedural approach is the key to get this done. 
