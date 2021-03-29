@@ -5,7 +5,7 @@
 
    https://view6914b2f4-3001.udacity-student-workspaces.com
 
-1. Required Libraries:
+## 1. Required Libraries: ##
 
    Besides the libraries included in the Anaconda distribution for Python 3.6 the following libraries have been included in this project:
 
@@ -14,7 +14,7 @@
    sqlalchemy
 
 
-2. Introduction
+## 2. Introduction ##
 
    Figure 8 helps companies transform they data by providing human annotators and machine learning to annotate data at all scales. Disaster response is one of events that        greatly benefits from data and machine learning modeling. In this project I propose an approach to social media messages annotation. NLP allows the extraction of great        significance in text, understanding how a model classifies and predicts needed responses in disaster cases provides good understanding of the power of words in functional    responses.
 
@@ -23,12 +23,12 @@
    The best performing machine learning model will be deployed as a web app where the user can test their own tentative messages to see how they would be classified with the    models I selected and trained. Through the web app the user can also consult visualizations of the clean and transformed data.
 
 
-3. Files
+## 3. Files ##
 
    Data was downloaded from Figure 8.
 
 
-4. ETL Pipeline
+## 4. ETL Pipeline ##
 
    File data/process_data.py contains data cleaning pipeline that:
 
@@ -38,7 +38,7 @@
    Stores it in a SQLite database
 
 
-5. ML Pipeline
+## 5. ML Pipeline ##
 
    File models/train_classifier.py contains machine learning pipeline that:
 
@@ -50,7 +50,7 @@
    Exports the final model as a pickle file
 
 
-6. Flask Web App
+## 6. Flask Web App ##
 
 
    Run the following commands in the project's root directory to set up your database and model.
@@ -86,3 +86,7 @@
 4. Try to tune the class weights so that the model doesn't behave in a biased way. 
 
 There are different techniques that could be implemented in order to avoid model resulting biased outputs. This completely should be analysed in the initial phases of data preparation and cleaning. 
+
+## Classification Output ##
+
+
