@@ -165,7 +165,7 @@ def index():
     figuresJSON = json.dumps(figures, cls=plotly.utils.PlotlyJSONEncoder)
     
     # render web page with plotly figures
-    return render_template('master.html', ids=ids, figuresJSON=figuresJSON, data_set=df)
+    return render_template('master.html', ids=ids, graphJSON=figuresJSON, data_set=df)
 
 # web page that handles user query and displays model results
 @app.route('/go')
