@@ -146,7 +146,7 @@ Log-loss: 0.35
 
 As an end result, XGBoost algorithm resulted with significantly low log loss value while classifying the inputs given.
 
-<b> <h3> Conclusion: </h3> <b>
+<b> <h3> Conclusion: </h3> </b>
 
 Overall, I chose this challenging project because that this data preparation has so many NLP techniques involved right from tokenization, text based feature extraction to converting texts into numerics for model creation, and always this domain seems to appear as the future advancement.
 
