@@ -35,7 +35,7 @@ i.e. offer received ---> offer viewed ---> offer completed.
 
 <b> transcript </b>- Records for transactions, offers received, offers viewed, and offers complete.
 
-<b> portfolio(pt): </b> 
+<b> <h3> portfolio(pt):</h3> </b> 
 
 <b> id (string) </b> - offer id
 
@@ -49,7 +49,7 @@ i.e. offer received ---> offer viewed ---> offer completed.
 
 <b> channels </b> (list of strings)
 
-<b> profile(pf): </b>
+<b> <h3> profile(pf): </h3> </b>
 
 <b> age (int) </b> - age of the customer
 
@@ -61,7 +61,7 @@ i.e. offer received ---> offer viewed ---> offer completed.
 
 <b> income (float) </b> - customer's income
 
-<b> transcript(ts): </b> 
+<b> <h3> transcript(ts): </h3></b> 
 
 <b> event (str) </b> - record description (ie transaction, offer received, offer viewed, etc.)
 
