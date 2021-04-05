@@ -29,47 +29,47 @@ i.e. offer received ---> offer viewed ---> offer completed.
 
 <b> <h2> Data Overview:</h2></b>
 
-portfolio: Containing offer ids and metadata about each offer (duration, type, etc.).
+<b> portfolio: </b> Containing offer ids and metadata about each offer (duration, type, etc.).
 
-profile - Demographic data for each customer.
+<b> profile </b> - Demographic data for each customer.
 
-transcript - Records for transactions, offers received, offers viewed, and offers complete.
+<b> transcript </b>- Records for transactions, offers received, offers viewed, and offers complete.
 
-portfolio(pt):
+<b> portfolio(pt): </b> 
 
-id (string) - offer id
+<b> id (string) </b> - offer id
 
-offer_type (string) - the type of offer ie BOGO, discount, informational
+<b> offer_type (string) </b> - the type of offer ie BOGO, discount, informational
 
-difficulty (int) - the minimum required to spend to complete an offer
+<b> difficulty (int) </b> - the minimum required to spend to complete an offer
 
-reward (int) - the reward is given for completing an offer
+<b> reward (int) </b> - the reward is given for completing an offer
 
-duration (int) - time for the offer to be open, in days
+<b> duration (int) </b>- time for the offer to be open, in days
 
-channels (list of strings)
+<b> channels </b> (list of strings)
 
-profile(pf):
+<b> profile(pf): </b>
 
-age (int) - age of the customer
+<b> age (int) </b> - age of the customer
 
-became_member_on (int) - the date when the customer created an app account
+<b> became_member_on (int) </b> - the date when the customer created an app account
 
-gender (str) - gender of the customer (note some entries contain 'O' for other rather than M or F)
+<b> gender (str)</b> - gender of the customer (note some entries contain 'O' for other rather than M or F)
 
-id (str) - customer-id
+<b> id (str) </b> - customer-id
 
-income (float) - customer's income
+<b> income (float) </b> - customer's income
 
-transcript(ts):
+<b> transcript(ts): </b> 
 
-event (str) - record description (ie transaction, offer received, offer viewed, etc.)
+<b> event (str) </b> - record description (ie transaction, offer received, offer viewed, etc.)
 
-person (str) - customer-id
+<b> person (str) </b> - customer-id
 
-time (int) - time in hours since the start of the test. The data begins at time t=0
+<b> time (int) </b> - time in hours since the start of the test. The data begins at time t=0
 
-value - (dict of strings) - either an offer id or transaction amount depending on the record.
+<b> value </b> - (dict of strings) - either an offer id or transaction amount depending on the record.
 
 <b> Data Preprocessing: </b>
 
